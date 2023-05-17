@@ -46,8 +46,8 @@ export default {
       ) {
         console.log("Wrong...");
         //close card
-        this.$refs[`card-${this.rules[0].index}`].onFlipBack();
-        this.$refs[`card-${this.rules[1].index}`].onFlipBack();
+        this.$refs[`card-${this.rules[0].index}`].onFlipBackCard();
+        this.$refs[`card-${this.rules[1].index}`].onFlipBackCard();
         this.rules = [];
       } else return false;
     },

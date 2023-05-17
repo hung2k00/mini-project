@@ -42,7 +42,7 @@ export default {
       this.isFlipped = !this.isFlipped;
       if (this.isFlipped) this.$emit("onFlip", this.card);
     },
-    onFlipBack() {
+    onFlipBackCard() {
       this.isFlipped = false;
     },
   },
